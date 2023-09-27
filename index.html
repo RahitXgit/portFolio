@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahit - Developer Portfolio</title>
+    <link rel="shortcut icon" href="images/me_icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="images/me_icon.png" alt="">Rahit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Rahit</span>
+                <div> And I am a passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><img class ="btn-img" src="images/resume.png" alt="resume"></button>
+                    <button class="btn"><img class ="btn-img" src="images/github.png" alt=""></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/Developer1.png" alt="Developer">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" id="java" src="images/javaLogo.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est dolor cumque earum odit
+                        voluptate, sint temporibus nam repellendus ad nisi, animi architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="js" src="images/jsLogo.png" alt="">
+                    <div class="vertical-title">
+                        Javascript Developer
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est dolor cumque earum odit
+                        voluptate, sint temporibus nam repellendus ad nisi, animi architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="node" src="images/node.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est dolor cumque earum odit
+                        voluptate, sint temporibus nam repellendus ad nisi, animi architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" id="html" src="images/html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est dolor cumque earum odit
+                        voluptate, sint temporibus nam repellendus ad nisi, animi architecto.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rahit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fouth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.rahitsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
